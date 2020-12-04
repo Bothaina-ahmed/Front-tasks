@@ -1,0 +1,160 @@
+@charset "UTF-8";
+/*Reset*/
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Main styel*/
+body , html{
+    font-family: Roboto Condensed;
+    line-height: 1.8rem;
+}
+ul , ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/*utility classses*/
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.clear{clear: both;}
+.text-white{
+    color: white;
+}
+.bg-white{
+    background-color: white;
+}
+.text-dark{
+    color: black;
+}
+.bg-dark{
+    background-color: black;
+}
+.text-center{
+    text-align: center;
+}
+/*Navbar*/
+.navbar{
+    padding: 10px;
+}
+.navbar .nav-items{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .container .brand a{
+    color: #FED136;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.navbar .container .links ul li{
+ display: inline-block;
+ padding: 0px 10px;
+}
+.navbar .container .links ul li a:hover{
+    color: #FED136;
+}
+.showcase{
+    height: 670px;
+   background-image: url('../Images/header-bg.jpg');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+.showcase .showcase-content{
+    padding-top: 175px;
+    font-size: 1.3rem;
+}
+.showcase .showcase-content .sub-heading{
+    font-size: 1.8rem;
+    font-style: italic;
+    padding: 25px 0px;
+    word-spacing: 8px;
+    text-shadow: 1px 1px 1px #fff;
+}
+.showcase .container .showcase-content hr ,
+.services .container hr , .about .container hr ,
+.protofolio .container hr , .protofolio .container hr{
+    width: 5%;
+    margin: 10px auto;
+    border: 3px solid #FED136;
+}
+.showcase .showcase-content .mashead-heading{
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    word-spacing: 16px;
+    text-shadow: 1px 1px 1px #fff;
+    padding: 16px 0px;
+}
+.showcase .showcase-content button{
+    border: none;
+    background-color: #FED136;
+    border-radius: 5px;
+    padding: 12px;
+    margin-top: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.showcase .showcase-content button:hover{
+    background-color: black;
+    color: #FED136;
+}
+.services{
+    padding: 50px;
+}
+.services .row{
+    display: flex;
+    margin-top: 40px;
+
+}
+.services .row .col{
+    padding: 20px;
+   
+}
+.services .row .col .icon i{
+    background-color: #FED136;
+    padding: 35px;
+    border-radius: 50%;
+}
+.about{
+    padding: 50px;
+}
+.about button{
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 40px;
+    background-color: #FED136;
+    color: black;
+    padding: 10px;
+    margin-top: 10px;
+}
+.protofolio{
+    padding: 50px;
+}
+.protofolio .container .row1 {
+    display: flex;
+    flex-wrap: wrap;
+   padding: 0px;
+   line-height: 0px;
+   margin-top: 0px;
+}
+.protofolio .container .row1 .coll img{
+    margin-top: 0px;
+}
+.protofolio .container .icons{
+    display: flex;
+    margin: 0px 180px;
+    justify-content: space-between;
+}
+.protofolio .container .icons .color{
+    color: #FED136;
+}
