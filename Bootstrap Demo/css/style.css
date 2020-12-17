@@ -1,0 +1,144 @@
+@charset 'utf-8';
+
+/*@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap'); */
+
+@font-face{
+    font-family : 'Sriracha', cursive;
+    src : url('../vendor/fonts/Sriracha-Regular.ttf');
+}
+/*
+@font-face{
+    font-family: 'Langar', cursive;
+    src: url('../vendor/fonts/Langar-Regular.ttf');
+} */
+/* Main Style*/
+html , body{
+    font-family: 'Sriracha', cursive;
+    box-sizing: border-box;
+}
+/* Navbar Style */
+.navbar-expand-lg{
+    background-color: #000 !important;
+}
+.navbar-expand-lg .navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.navbar-expand-lg .nav-item .nav-link{
+    padding: 0 12px;
+}
+.navbar-expand-lg .nav-item .nav-link:hover{
+    transition: border .5s;
+    border-bottom: 4px solid #009476;
+    margin-top: 5px;
+}
+/* showCase Style */
+.showcase{
+    height: 40rem;
+    background-image: url('../images/bg-masthead.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 0 0 16% 16%;
+}
+.showcase .content{
+    padding-top: 95px;
+}
+.showcase .content h1{
+    font-size: 3rem;
+    text-shadow: 1px 1px 1px #ddd;
+    line-height: 4rem;
+}
+.showcase .content hr ,
+.services hr{
+    width: 6%;
+    margin: 20px auto;
+    border: 4px solid #fff;
+}
+.showcase .content .btn-success{
+    background-color: #009476;
+    padding: 17px;
+    border: none;
+    border-radius: 30%
+}
+.showcase .content .btn-success:hover{
+    color: #009476;
+    background-color: #fff;
+    transition: background-color 3s ease-in-out;
+}
+
+/* Services Style */
+.services , 
+.explore{
+    margin-top: 100px !important;
+}
+.services h2 ,
+.explore h2 ,
+.portofolio h2{
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 2px #2d2d2d;
+}
+.services hr{
+    border-color: #2d2d2d;
+}
+.services .icon{
+    margin-top: 45px;
+    color: #009476;
+}
+.services h4{
+    margin: 20px 0;
+}
+
+/* Explore Style */
+.explore{
+    background-color: #f8f9fa;
+    padding: 50px
+}
+.explore .card .btn-outline-primary{
+    color: #009476;
+    border-color: #009476;
+}
+.explore .card .btn-outline-primary:hover{
+    background-color: #009476;
+    color: #fff;
+}
+
+/* Testimonials Style */
+.quotes{
+    padding: 50px
+}
+.quotes i {
+    color: #009476;
+    opacity: .4;
+}
+.quotes .blockquote-footer{
+    color: #009476;
+}
+
+/* Slider Style */
+.carsoul .details a{
+    color: #009476;
+}
+.carsoul .details a:hover{
+    color: #2f2f2f;
+    text-decoration: none;
+    transition: border .8s;
+    border-bottom: 4px solid #2f2f2f;
+}
+
+/* Portofolio Style */
+.portofolio .col-md-4{
+    transition: all 1s ease-in-out;
+}
+.portofolio img{
+      width: 400px;
+      height: 260px;
+}
+.portofolio .col-md-4:nth-child(odd):hover{
+    transform: scale(.8);
+}
+.portofolio .col-md-4:nth-child(even):hover{
+    transform: rotate(-45deg);
+    opacity: .8;
+}
+

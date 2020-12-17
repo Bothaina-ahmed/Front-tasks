@@ -1,0 +1,139 @@
+@charset 'utf-8';
+
+/*@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap'); */
+
+@font-face{
+    font-family : 'Sriracha', cursive;
+    src : url('../vendor/fonts/Sriracha-Regular.ttf');
+}
+/*
+@font-face{
+    font-family: 'Langar', cursive;
+    src: url('../vendor/fonts/Langar-Regular.ttf');
+} */
+/* Main Style*/
+html , body{
+    font-family: 'Sriracha', cursive;
+    box-sizing: border-box;
+}
+/* Navbar Style */
+.navbar-expand-lg .navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 90px;
+}
+.navbar-expand-lg .nav-item .nav-link{
+    padding: 0 12px;
+}
+.navbar-expand-lg .nav-item .nav-link:hover{
+    transition: border .5s;
+    border-top: 4px solid #ccae62;
+    /* margin-bottom: 5px; */
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* showCase Style */
+.showcase{
+    height: 40rem;
+    margin-top: -13px;
+    background-image: url('../images/2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: .9;
+}
+h1{
+    text-align: start;
+    font-size: 5rem;
+    padding-top: 50px;
+    padding-left: 0;
+    color: white;
+    line-height: 0px;
+}
+ p{
+    text-align: start;
+   padding-top: 250px;
+ }
+.btu{
+   font-size: 1.5rem;
+   padding:30px 40px;
+   margin-left: 300px;
+   margin-right: 0px;
+   border: none;
+   background-color: #ccae62;
+}
+.btu:hover{
+    color: #ccae62;
+    background-color: black;
+    transform: scale(.8);
+}
+.p{
+    color:#fff;
+    font-size: larger;
+}
+.p2{
+    color: #ccae62;
+    font-size: 6rem;
+    margin-left: 750px;
+    margin-top: -100px;
+}
+.head{
+    font-size: 2rem;
+    margin-top: 150px;
+}
+.parag{
+    margin-top: -250px;
+}
+.btu2{
+    border-radius: 20px;
+    color:  #ccae62;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-color: #ccae62;
+}
+.btu2:hover{
+    background-color: #ccae62;
+    color: #000;
+    transform: scale(.9);
+}
+.icon{
+    color:#ccae62;
+    margin-bottom: 20px;
+}
+.p3{
+    margin-top: -240px;
+    padding-left: 30px;
+}
+.prac{
+    width: 700px;
+    height: 50px;
+    border-radius: 40px;
+    line-height: 5px;
+    text-align: start;
+    color: gray;
+    padding: 20px;
+    margin-top: 10px;
+    border: none;
+    font-size: 24px;
+}
+.link2{
+
+    color: #fff;
+    text-decoration: underline;
+    padding-left: 60px; 
+}
+.link2:hover{
+    text-decoration: none;
+    color: #ccae62;
+}
+.clr{
+    color: #ccae62;
+    margin-right: 10px;
+}
+.text{
+    color: #fff;
+    font-size: 20px;
+    /*padding: 0px 20px;*/
+}

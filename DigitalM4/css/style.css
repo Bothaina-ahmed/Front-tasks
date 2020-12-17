@@ -1,0 +1,161 @@
+@charset 'utf-8';
+
+/*@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap'); */
+
+/* @font-face{
+    font-family : 'Lato', sans-serif;
+    src : url('../vendor/fonts/Sriracha-Regular.ttf');
+}  */
+/*
+@font-face{
+    font-family: 'Langar', cursive;
+    src: url('../vendor/fonts/Langar-Regular.ttf');
+} */
+/* Main Style*/
+*{
+    margin: 0;
+    padding: 0;
+}
+html , body{
+    font-family: 'Langar', cursive;
+    box-sizing: border-box;
+}
+ /* Navbar Style  */
+ .navbar-expand-lg .navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 90px;
+}
+
+.navbar-expand-lg .nav-item .nav-link{
+    padding: 20px 12px;
+} 
+ul , ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/*utility classses*/
+
+.navbar .container .links ul li a:hover{
+    color: #d1ccc0;
+    text-decoration: none;
+}
+.btn{
+    font-size: 1.5rem;
+    padding:10px 30px;
+    /* margin-left: 300px;*/
+    margin-right: 0px !important; 
+    border-radius: 40px;
+    border: none;
+    background-color: #474787;
+    color: #fff;
+ }
+ .btn:hover{
+     box-shadow: 2px 2px 2px 2px #706fd3;
+     color: #fff;
+ }
+ .showcase{
+    height: 40rem;
+    background-image: url('../images/1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.showcase .content{
+    padding-top: 95px;
+}
+.showcase .content h1{
+    font-size: 3rem;
+    text-shadow: 1px 1px 1px #ddd;
+    line-height: 4rem;
+    padding: 70px;
+}
+.bt{
+    background-color: #fff;
+    color: #84817a;
+    font-size:20px;
+    padding:10px 10px;
+    border-radius: 50px;
+    border: none;
+}
+.bt:hover{
+    box-shadow: 2px 2px 2px 2px #706fd3
+}
+.col{
+    display: flex;
+    padding-top: 20px;
+}
+.img{
+    position: relative;
+    background-image: url('../images/03.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+}
+.txt{
+    position: absolute;
+}
+.bg-dark{
+    border-radius: 0 0 16% 16%;
+}
+.fa {
+    font-size: 25px;
+  }
+  
+  .checked {
+    color: orange;
+  }
+  
+  /* Three column layout */
+  .side {
+    float: left;
+    width: 15%;
+    margin-top:10px;
+  }
+  
+  .middle {
+    margin-top:10px;
+    float: left;
+    width: 70%;
+  }
+  
+  /* Place text to the right */
+  .right {
+    text-align: right;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The bar container */
+  .bar-container {
+    width: 50%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+  }
+  
+.bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 10%; height: 18px; background-color: #2196F3;}
+.bar-2 {width: 4%; height: 18px; background-color: #2196F3;}
+.bar-1 {width: 15%; height: 18px; background-color: #2196F3;}
+@media (max-width: 400px) {
+    .side, .middle {
+      width: 100%;
+    }
+    .right {
+      display: none;
+    }
+  }
+
