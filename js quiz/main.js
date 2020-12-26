@@ -1,12 +1,11 @@
 /*
 1-i=5;
 2-undefined;
-3-key="ginger_rabbit";
+3-key="white_rabbit";
 */ 
-
 const number = parseInt(prompt('Enter a positive integer: '));
 
-let x ;
+var x=1 ;
 
 // looping from i = 1 to number
 // in each iteration, i is increased by 1
