@@ -3,6 +3,7 @@
 2-undefined;
 3-key="white_rabbit";
 */ 
+
 const number = parseInt(prompt('Enter a positive integer: '));
 
 var x=1 ;
