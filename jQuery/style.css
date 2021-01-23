@@ -1,0 +1,30 @@
+/*
+div{
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+}
+.div1{
+    background-color: orange;
+}
+.div2{
+    background-color: green;
+}
+.div3{
+    background-color: yellow;
+} */
+.slide{
+    display: block;
+    background-color: #2f2f2f;
+    color: #fff;
+    padding: 5px;
+    margin: auto;
+    width: 300px;
+}
+.content{
+    background-color: teal;
+    color: yellow;
+    width: 300px;
+    margin: auto;
+    padding: 5px;
+}
